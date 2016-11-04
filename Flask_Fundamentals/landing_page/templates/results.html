@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOJO SURVEY INDEX</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+	<div class="wrap">
+		<p class="left">Name:</p>
+		<p class="right">{{name}}</p>
+		<p class="left">Dojo Location:</p>
+		<p class="right">{{loc}}</p>
+		<p class="left">Favorite Language:</p>
+		<p class="right">{{lang}}</p>
+		<p class="left">Comment:</p>
+		<p class="right">{{cum}}</p>
+		<form action='/' method='get'>
+		<input type='submit' value='Go Back'>
+		</form>
+	</div>
+</body>
+</html>
